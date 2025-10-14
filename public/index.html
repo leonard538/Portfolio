@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Leonard Pueblos</title>
+    <link rel="icon" type="image/png" href="../image/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+    <header>
+       <!-- <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        -->
+        <nav id="nav">
+            <a href="#overview" class="nav-link active">Overview</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#about" class="nav-link">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+        </div >
+        
+        <section id="overview">
+            <div class="overview-text">
+                <h1 id="typing-text"></h1>
+                <h2>Leonard Pueblos</h2>
+
+                <p>Hi, I’m Leonard, an IT student passionate about networking, web development, and system 
+                    administration. I enjoy learning how technology connects, from building web apps to 
+                    managing IT infrastructure. This website showcases my projects and growth as I work 
+                    toward becoming a well-rounded IT professional.</p>
+            </div>
+            <div class="overview-btn">
+                <a href="#about" class="btn btn1">About Me</a>
+                <a href="#contact" class="btn btn2">Contact</a>
+            </div>
+        </section>
+        
+        <section id="projects"  class="main-section projects">
+            <article class="proj-overview">
+                <div class="proj-text">
+                    <h1>
+                        <span class="partial-underline">PRO</span>JECTS
+                    </h1>
+                    <p>Here you’ll find the projects I’ve completed and shared.</p>
+                </div>
+                <div class="project-filters">
+                    <button data-category="All" class="active"><span class="line"></span>ALL</button>
+                    <button data-category="Web Development"><span class="line"></span>WEB DEVELOPMENT</button>
+                    <button data-category="Networking"><span class="line"></span>NETWORKING</button>
+                    <button data-category="IoT"><span class="line"></span>IOT</button>
+                    <a href="">
+                        <span>
+                            View Full Project Archive 
+                        </span>
+                        <i class="material-symbols-outlined">
+                            arrow_forward
+                        </i>
+                    </a>
+                </div>
+            </article>
+
+            <article id="container-projects" class="proj-parent-card">
+                <!-- TO BE POPULATED IN JS -->
+            </article>
+        </section>
+        
+        <section id="achievements" class="main-section achievements">
+            <div id="certificates" class="certificates">
+                <h2>
+                    <span class="partial-underline">Cert</span>ificates
+                </h2>
+                <p>A collection of my certifications that reflect my dedication to learning, growth, and excellence in technology.</p>
+                <article id="container-cert" class="container-card">
+                </article>
+            </div>
+
+            <div id="completions" class="completions">
+                <h2>
+                    Comple<span class="partial-underline">tions</span>
+                </h2>
+                <p>Here you’ll find my course and training completions from various platforms. 
+                    These reflect my curiosity and commitment to expanding my skills beyond formal certifications.</p>
+                
+                <article id="completion-parent" class="completion-parent">
+                    <div id="tesda-accomp" class="completion-container">
+                        <h3 class="category-title">TESDA</h3>
+                    </div>
+                    <div id="datacamp-comp" class="completion-container">
+                        <h3 class="category-title">DataCamp</h3>
+                        <aside class="datacamp-list">
+                            <section>
+                                <h4>Course Track</h4>
+                                <ul id="courses-list" class="courses">
+                                    <!-- <li> tag goes here -->
+                                </ul>
+                            </section>
+                            <section>
+                                <h4>Skill Track</h4>
+                                <ul id="skills-list" class="skills">
+                                    <!-- <li> tag goes here -->
+                                </ul>
+                            </section> 
+                        </aside>
+                    </div>
+                    <div id="dict-accomp" class="completion-container">
+                        <h3 class="category-title">DICT</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="main-section contact">
+            <div class="img-banner">
+                <img src="../image/map3.png" alt="location">
+                
+                <div class="contact-content">
+                    <h2 class="contact-title">Contact Me</h2>
+                    <p class="contact-message">. . . . . .</p>
+                    <p class="contact-message">
+                        Get in touch with me for collaborations, projects, or inquiries. I’d be happy to connect!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="contact-means">
+                <aside class="contact-items">
+                    <i class="fa-solid fa-message"></i>
+                    <h4>Message Me</h4>
+                    <p>Connect with me on Messenger for casual and quick inquiries or collaborations. Let’s build something great together.</p>
+                    <a href="https://m.me/leonard.pueblos.3" target="_blank">
+                        <h5>https://m.me/leonard.pueblos.3</h5>
+                    </a>
+                </aside>
+                <aside class="contact-items">
+                    <i class="fa-solid fa-phone"></i>
+                    <h4>Call Me</h4>
+                    <p>Prefer to talk directly? Feel free to reach out by phone during business hours — I’d be glad to discuss your questions or ideas.</p>
+                    <h5>+63 912 345 6789</h5>
+                </aside>
+                <aside class="contact-items">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h4>Email Me</h4>
+                    <p>Send me an email for project discussions, technical support, or any inquiries. I’ll do my best to respond as soon as possible.</p>
+                    <h5>leonardpueblos@gmail.com</h5>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="main-section about">
+            <div class="profile-background">
+                <article class="profile-picture">
+                    <img src="../image/me2.png" alt="Leonard's Profile">
+                </article>
+            </div>
+
+            <div class="about-content">
+                <h3>Discover</h3>
+                <h1>
+                    <span class="partial-underline">Abo</span>ut Me
+                </h1>
+                <p>
+                    Hi, I’m Leonard, an Information Technology student in Technological University of the Philippines - Manila, who's passionate about networking, 
+                    web development, and system administration. My goal is to become a versatile IT professional capable of designing efficient systems and 
+                    networks while continuously exploring emerging technologies.
+                </p>
+                <aside class="profile-details">
+                    <span class="detail-item"><b>Name: </b>Leonard O. Pueblos</span>
+                    <span class="detail-item"><b>Age: </b>20</span>
+                    <span class="detail-item"><b>Phone: </b>+63 912 345 6789</span>
+                    <span class="detail-item"><b>Address: </b>Cavite, Philippines</span>
+                    <span class="detail-item"><b>Role: </b>IT Student</span>
+                    <span class="detail-item"><b>Organization: </b>TUP - Manila</span>
+                </aside>
+
+                <aside class="about-btn">
+                    <a class="btn download-cv" title="Not available yet">DOWNLOAD CV</a>
+                    <a class="btn full-details" title="Not available yet">VIEW FULL DETAILS</a>
+                </aside>
+            </div>
+        </section>
+
+        <section class="technologies">
+            <div class="tech-text">
+                <h2 class="tech-title">Technologies I Use</h2>
+                <p>Tools and technologies I use to design and build my projects</p>
+            </div>
+            <div class="tech-scroll-wrapper">
+                <div id="tech-list-container" class="tech-scroll">
+                    <!-- <div class='tech-item'> to be placed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="upper-footer">
+            <h2>LEONARD</h2>
+            <span>Designed & Developed</span>
+
+            <nav>
+                <a href="#overview">Overview</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </nav>
+
+            <aside class="social-links">
+                <a href="https://www.facebook.com/leonard.pueblos.3" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/whi.leonard/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/leonard538" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/leonard-pueblos/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&to=leonardpueblos@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </aside>
+            <p>Crafted with passion, curiosity, and a bit of coffee. This website reflects my journey in learning, 
+                creating, and exploring technology. Continuing to grow and innovate, one project at a time.</p>
+            <hr>
+        </div>
+
+        <div class="lower-footer">
+            <h5>Designed and developed by Leonard Pueblos. © 2025 All rights reserved.</h5>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
