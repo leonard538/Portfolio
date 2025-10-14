@@ -1,20 +1,20 @@
 [
     {
         "title": "Data Engineer Associate Badge",
-        "image": "../image/DataCamp/DE Associate_badge.png",
+        "image": "./image/DataCamp/DE Associate_badge.png",
         "date": "February 2, 2025",
-        "link": "../image/DataCamp/Certifications/Data Engineer Associate.pdf"
+        "link": "./image/DataCamp/Certifications/Data Engineer Associate.pdf"
     }, 
     {
         "title": "SQL Associate Badge",
-        "image": "../image/DataCamp/SQL Associate_badge.png",
+        "image": "./image/DataCamp/SQL Associate_badge.png",
         "date": "January 25, 2025",
-        "link": "../image/DataCamp/Certifications/SQL Associate.pdf"
+        "link": "./image/DataCamp/Certifications/SQL Associate.pdf"
     },
     {
         "title": "Computer System Servicing",
-        "image": "../image/soon.png",
+        "image": "./image/soon.png",
         "date": "",
-        "link": "../image/soon.png"
+        "link": "./image/soon.png"
     }
 ]

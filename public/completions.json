@@ -2,139 +2,139 @@
     "TESDA": [
         {
             "title": "Maintaining Computer Systems and Networks",
-            "image": "../image/TESDA/Maintaining Computer Systems and Networks.pdf"
+            "image": "./image/TESDA/Maintaining Computer Systems and Networks.pdf"
         },
         {
             "title": "Setting Up Computer Servers",
-            "image": "../image/TESDA/Setting Up Computer Servers.pdf"
+            "image": "./image/TESDA/Setting Up Computer Servers.pdf"
         },
         {
             "title": "Setting Up Computer Networks",
-            "image": "../image/TESDA/Setting Up Computer Networks.pdf"
+            "image": "./image/TESDA/Setting Up Computer Networks.pdf"
         },
         {
             "title": "Installing and Configuring Computer Systems",
-            "image": "../image/TESDA/Installing and Configuring Computer Systems.pdf"
+            "image": "./image/TESDA/Installing and Configuring Computer Systems.pdf"
         },
         {
             "title": "Introduction to CSS",
-            "image": "../image/TESDA/Introduction to CSS.pdf"
+            "image": "./image/TESDA/Introduction to CSS.pdf"
         }
     ],
    "DataCamp": {
         "Course": [
             {
                 "title": "Introduction to Importing Data in Python",
-                "image": "../image/DataCamp/Completions/Courses/Introduction to Importing Data in Python.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Introduction to Importing Data in Python.pdf"
             },
             {
                 "title": "Intermediate Python for Developers",
-                "image": "../image/DataCamp/Completions/Courses/Intermediate Python for Developers.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Intermediate Python for Developers.pdf"
             },
             {
                 "title": "Introduction to Python for Developers",
-                "image": "../image/DataCamp/Completions/Courses/Introduction to Python for Developers.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Introduction to Python for Developers.pdf"
             },
             {
                 "title": "Generative AI Concepts",
-                "image": "../image/DataCamp/Completions/Courses/Generative AI Concepts.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Generative AI Concepts.pdf"
             },
             {
                 "title": "AWS Concepts",
-                "image": "../image/DataCamp/Completions/Courses/AWS Concepts.pdf"
+                "image": "./image/DataCamp/Completions/Courses/AWS Concepts.pdf"
             },
             {
                 "title": "Data Warehousing Concepts",
-                "image": "../image/DataCamp/Completions/Courses/Data Warehousing Concepts.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Data Warehousing Concepts.pdf"
             },
             {
                 "title": "Introduction to Relational Databases in SQL",
-                "image": "../image/DataCamp/Completions/Courses/Introduction to Relational Databases in SQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Introduction to Relational Databases in SQL.pdf"
             },
             {
                 "title": "Database Design",
-                "image": "../image/DataCamp/Completions/Courses/Database Design.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Database Design.pdf"
             },
             {
                 "title": "Functions for Manipulating Data in PostgreSQL",
-                "image": "../image/DataCamp/Completions/Courses/Functions for Manipulating Data in PostgreSQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Functions for Manipulating Data in PostgreSQL.pdf"
             },
             {
                 "title": "PostgreSQL Summary Stats and Window",
-                "image": "../image/DataCamp/Completions/Courses/PostgreSQL Summary Stats and Window.pdf"
+                "image": "./image/DataCamp/Completions/Courses/PostgreSQL Summary Stats and Window.pdf"
             },
             {
                 "title": "Data Manipulation in SQL",
-                "image": "../image/DataCamp/Completions/Courses/Data Manipulation in SQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Data Manipulation in SQL.pdf"
             },
             {
                 "title": "Joining Data in SQL",
-                "image": "../image/DataCamp/Completions/Courses/Joining Data in SQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Joining Data in SQL.pdf"
             },
             {
                 "title": "Intermediate SQL",
-                "image": "../image/DataCamp/Completions/Courses/Intermediate SQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Intermediate SQL.pdf"
             },
             {
                 "title": "Understanding Cloud Computing",
-                "image": "../image/DataCamp/Completions/Courses/Understanding Cloud Computing.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Understanding Cloud Computing.pdf"
             },
             {
                 "title": "Understanding Data Engineering",
-                "image": "../image/DataCamp/Completions/Courses/Understanding Data Engineering.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Understanding Data Engineering.pdf"
             },
             {
                 "title": "Understanding Data Visualization",
-                "image": "../image/DataCamp/Completions/Courses/Understanding Data Visualization.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Understanding Data Visualization.pdf"
             },
             {
                 "title": "Understanding Machine Learning",
-                "image": "../image/DataCamp/Completions/Courses/Understanding Machine Learning.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Understanding Machine Learning.pdf"
             },
             {
                 "title": "Understanding Data Science",
-                "image": "../image/DataCamp/Completions/Courses/Understanding Data Science.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Understanding Data Science.pdf"
             },
             {
                 "title": "Introduction to SQL",
-                "image": "../image/DataCamp/Completions/Courses/Introduction to SQL.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Introduction to SQL.pdf"
             },
             {
                 "title": "Intermediate Python",
-                "image": "../image/DataCamp/Completions/Courses/Intermediate Python.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Intermediate Python.pdf"
             },
             {
                 "title": "Introduction to Python",
-                "image": "../image/DataCamp/Completions/Courses/Introduction to Python.pdf"
+                "image": "./image/DataCamp/Completions/Courses/Introduction to Python.pdf"
             }
         ],
         "Skill": [
             {
                 "title": "SQL Fundamentals",
-                "image": "../image/DataCamp/Completions/Skill Track/SQL Fundamentals.pdf"
+                "image": "./image/DataCamp/Completions/Skill Track/SQL Fundamentals.pdf"
             },
             {
                 "title": "Understanding Data Topics",
-                "image": "../image/DataCamp/Completions/Skill Track/Understanding Data Topics.pdf"
+                "image": "./image/DataCamp/Completions/Skill Track/Understanding Data Topics.pdf"
             }
         ]
     },
     "DICT": [
         {
             "title": "Programming for Beginners Using Python",
-            "image": "../image/DICT/Programming for Beginners Using Python.pdf"
+            "image": "./image/DICT/Programming for Beginners Using Python.pdf"
         },
         {
             "title": "DICT-WD003 Basic JavaScript for Web Development",
-            "image": "../image/DICT/DICT-WD003 Basic JavaScript for Web Development.pdf"
+            "image": "./image/DICT/DICT-WD003 Basic JavaScript for Web Development.pdf"
         },
         {
             "title": "DICT-W002 Using HTML and CSS to Design a Website",
-            "image": "../image/DICT/DICT-W002 Using HTML and CSS to Design a Website.pdf"
+            "image": "./image/DICT/DICT-W002 Using HTML and CSS to Design a Website.pdf"
         },
         {
             "title": "DICT-WD001 Principles of web development and Introduction to HTML",
-            "image": "../image/DICT/DICT-WD001 Principles of web development and Introduction to HTML.pdf"
+            "image": "./image/DICT/DICT-WD001 Principles of web development and Introduction to HTML.pdf"
         }
     ]
 }
