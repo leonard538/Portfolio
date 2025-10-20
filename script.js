@@ -187,7 +187,7 @@ async function makeCompletions() {
 const techList = [
     "Packet Tracer", "VirtualBox", "VMware ",
     "Figma", "HTML", "CSS", "JavaScript",
-    "React [Learning]", "PHP", "MySQL",
+    "PHP", "MySQL",
     "PostgreSQL", "Firebase"
 ];
 
