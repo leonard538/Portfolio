@@ -897,3 +897,9 @@ footer.footer div.lower-footer h5 {
     padding: 0 10px;
 }
     
+
+@media (max-width: 400px) {
+    header nav {
+        width: 100%;
+    }
+}
