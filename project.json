@@ -19,7 +19,7 @@
         "image": "./image/projects/cma_dashboard.png",
         "title": "CMA Compliance Dashboard",
         "description": "An interactive dashboard for auditing compliance with the Cheaper Medicines Act (RA 9502) in the Philippines. This tool analyzes drug procurement patterns, price spreads, and facility-level compliance to identify potential issues with branded vs generic drug prescriptions.",
-         "link": "https://leonard538.github.io/BrandedVsGeneric_Drug_Prescription_Analysis/",
+        "link": "https://leonard538.github.io/BrandedVsGeneric_Drug_Prescription_Analysis/",
         "tech": ["CHARTJS", "JS", "CSS", "HTML"],
         "categories": ["Web Development"]
     },
@@ -27,6 +27,7 @@
         "image": "./image/projects/paw_patrol.png",
         "title": "Paw Patrol | Pet Initiative",
         "description": "Paw Patrol is a mock-up pet-care initiative website designed to promote responsible pet ownership and animal welfare. The site provides information about the organization’s mission, services, and advocacy for pets, while offering an online platform for engagement and future administrative management through an integrated backend system.",
+        "link": "https://pawpatrolorg.infinityfreeapp.com/Paw-Patrol/frontend/index.html",
         "tech": ["PHP", "MYSQL", "JS", "EMAILJS", "CSS"],
         "categories": ["Web Development"]
     },
