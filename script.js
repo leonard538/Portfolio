@@ -61,6 +61,14 @@ function makeProjects(projects) {
 
         projParent.appendChild(projCard);
     });
+        // {
+    //     "image": "./image/soon.png",
+    //     "title": "Network Archive [Under Development]",
+    //     "description": "Network Archive is a digital hub for sharing and exploring networking projects built in Cisco Packet Tracer. It allows users to upload, browse, and download network designs and configurations — creating a collaborative library for students, professionals, and enthusiasts to learn from real-world network setups and ideas.",
+    //     "link": "",
+    //     "tech": ["..."],
+    //     "categories": ["Web Development", "Networking"]
+    // }    
 }
 
 // Filter Project Buttons
