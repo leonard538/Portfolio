@@ -12,7 +12,7 @@
         "title": "Student Management System",
         "description": "Student Management System is a mini project that demonstrates the basic concept of managing student information. It allows adding, viewing, updating, and deleting student records in a simple interface. While not fully operational, this project serves as a prototype to showcase the core functionality and structure of a typical student information system.",
         "link": "https://xydleuniversity.infinityfreeapp.com/faculty/faculty_login.php",
-        "tech": ["PHP", "CSS", "MySQL"],
+        "tech": ["PHP", "MySQL", "TCPDF", "CSS"],
         "categories": ["Web Development"]
     },
     {
