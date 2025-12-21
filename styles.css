@@ -143,14 +143,14 @@ section#overview div.overview-btn {
         font-size: 1.2rem;
         cursor: pointer;
         font-weight: 600;
-        margin: 10px 20px;
+        margin: 10px 20px;transition: transform 0.3s ease-in-out;
     }
 
     section#overview div.overview-btn a.btn1 {
         background: linear-gradient(to right, #edc359, rgb(184, 134, 11));
         border: none;
         color: white;
-        transition: transform 0.3s ease-in-out;
+        
     }
         section#overview div.overview-btn a.btn1:hover {
             background: linear-gradient(to right, #B8860B, #B8860B);
@@ -166,6 +166,7 @@ section#overview div.overview-btn {
         section#overview div.overview-btn a.btn2:hover {
             background-color: #DAA520;
             color: white;
+            transform: scale(1.05);
         }
 
 
@@ -427,7 +428,7 @@ div.certificates > article.container-card > div.cert-card {
     overflow: hidden;
 }
     div.certificates > article.container-card > div.cert-card:hover {
-        transform: scale(1.05);
+        transform: translateY(-10px);
         transition-delay: 0s;
     }
 
