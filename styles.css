@@ -342,6 +342,7 @@ section.proj-details h3 {
     display: flex;
     align-items: center;
     gap: 5px;
+    font-size: 15px; 
 }
     section.proj-details h3 span.material-symbols-outlined {
         font-size: 14px;

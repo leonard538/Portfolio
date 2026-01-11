@@ -1,23 +1,15 @@
 [
     {
-        "image": "./image/projects/online_task_manager.png",
-        "title": "Task Tide | Online Task Manager",
-        "description": "The Online Task Manager helps you stay organized by keeping all your tasks in one place. Whether you’re managing personal goals or team projects, it lets you create, assign, and update tasks easily. With a clean interface and easy navigation, it’s designed to make productivity simple and accessible for everyone.",
-        "link": "https://task-tide.infinityfree.me/login.php",
-        "tech": ["PHP", "CSS", "MySQL"],
+        "image": "./image/projects/lead_tracker.png",
+        "title": "Lead Tracker | 2026",
+        "description": "A lightweight browser extension for saving and organizing links into custom groups using vanilla JavaScript. It persists data with browser localStorage and dynamically updates the UI through event delegation. You can access this extension in Github with the instructions.",
+        "link": "https://github.com/leonard538/leads_tracker",
+        "tech": ["CSS", "JS", "Chrome API"],
         "categories": ["Web Development"]
-    },
-    {
-        "image": "./image/projects/student_management_sys.png",
-        "title": "Student Management System",
-        "description": "Student Management System is a mini project that demonstrates the basic concept of managing student information. It allows adding, viewing, updating, and deleting student records in a simple interface. While not fully operational, this project serves as a prototype to showcase the core functionality and structure of a typical student information system.",
-        "link": "https://xydleuniversity.infinityfreeapp.com/faculty/faculty_login.php",
-        "tech": ["PHP", "MySQL", "TCPDF", "CSS"],
-        "categories": ["Web Development"]
-    },
+    },    
     {
         "image": "./image/projects/cma_dashboard.png",
-        "title": "CMA Compliance Dashboard",
+        "title": "CMA Compliance Dashboard | 2025",
         "description": "An interactive dashboard for auditing compliance with the Cheaper Medicines Act (RA 9502) in the Philippines. This tool analyzes drug procurement patterns, price spreads, and facility-level compliance to identify potential issues with branded vs generic drug prescriptions.",
         "link": "https://leonard538.github.io/BrandedVsGeneric_Drug_Prescription_Analysis/",
         "tech": ["CHARTJS", "JS", "CSS", "HTML"],
@@ -25,15 +17,31 @@
     },
     {
         "image": "./image/projects/paw_patrol.png",
-        "title": "Paw Patrol | Pet Initiative",
+        "title": "Paw Patrol: Pet Initiative | 2025",
         "description": "Paw Patrol is a mock-up pet-care initiative website designed to promote responsible pet ownership and animal welfare. The site provides information about the organization’s mission, services, and advocacy for pets, while offering an online platform for engagement and future administrative management through an integrated backend system.",
         "link": "https://pawpatrolorg.infinityfreeapp.com/Paw-Patrol/frontend/index.html",
         "tech": ["PHP", "MYSQL", "JS", "EMAILJS", "CSS"],
         "categories": ["Web Development"]
     },
     {
+        "image": "./image/projects/online_task_manager.png",
+        "title": "Task Tide: Online Task Manager | 2025",
+        "description": "The Online Task Manager helps you stay organized by keeping all your tasks in one place. Whether you’re managing personal goals or team projects, it lets you create, assign, and update tasks easily. With a clean interface and easy navigation, it’s designed to make productivity simple and accessible for everyone.",
+        "link": "https://task-tide.infinityfree.me/login.php",
+        "tech": ["PHP", "CSS", "MySQL"],
+        "categories": ["Web Development"]
+    },
+    {
+        "image": "./image/projects/student_management_sys.png",
+        "title": "Student Management System | 2025",
+        "description": "Student Management System is a mini project that demonstrates the basic concept of managing student information. It allows adding, viewing, updating, and deleting student records in a simple interface. While not fully operational, this project serves as a prototype to showcase the core functionality and structure of a typical student information system.",
+        "link": "https://xydleuniversity.infinityfreeapp.com/faculty/faculty_login.php",
+        "tech": ["PHP", "MySQL", "TCPDF", "CSS"],
+        "categories": ["Web Development"]
+    },
+    {
         "image": "./image/projects/water_level_monitor.jpg",
-        "title": "Smart Water Level Monitor",
+        "title": "Smart Water Level Monitor | 2025",
         "description": "Smart Water Level Monitor is a simple IoT-based project using an ESP32, HC-SR04 ultrasonic sensor, LED, and 7-segment display to measure and display the water level in a tank. It provides visual alerts when the water level becomes too low or too high, helping to prevent overflow and water shortages efficiently.",
         "link": "https://github.com/leonard538/Smart-Water-Level-Monitor",
         "tech": ["C++", "Arduino IDE", "ThingSpeak"],
