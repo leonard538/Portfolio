@@ -3,18 +3,18 @@
         "title": "Data Engineer Associate Badge",
         "image": "./image/DataCamp/DE Associate_badge.png",
         "date": "February 2, 2025",
-        "link": "./image/DataCamp/Certifications/Data Engineer Associate.pdf"
+        "link": "https://www.datacamp.com/certificate/DEA0019075504200"
     }, 
     {
         "title": "SQL Associate Badge",
         "image": "./image/DataCamp/SQL Associate_badge.png",
         "date": "January 25, 2025",
-        "link": "./image/DataCamp/Certifications/SQL Associate.pdf"
+        "link": "https://www.datacamp.com/certificate/SQA0011281196942"
     },
     {
         "title": "Full Stack Developer",
         "image": "./image/scrimba_cert.png",
         "date": "",
-        "link": "./image/scrimba_cert.pdf"
+        "link": "https://scrimba.com/@leonard538:certs;cert23wfboWopQTz3Mbvsp9jND4DXDJefXWr7fxkZDyR1LKb9vxp"
     }
 ]

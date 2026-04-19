@@ -118,78 +118,75 @@ async function makeCertificate() {
 // ------------
 // COMPLETIONS
 // ------------
-async function makeCompletions() {
-    const completionType = await loadJSON('completions.json');
+// async function makeCompletions() {
+//     const completionType = await loadJSON('completions.json');
 
-    const tesdaContainer = document.getElementById('tesda-accomp');
-    const dictContainer = document.getElementById('dict-accomp');
+//     const tesdaContainer = document.getElementById('tesda-accomp');
+//     const dictContainer = document.getElementById('dict-accomp');
 
-    if(completionType.TESDA) {
-        const ul = document.createElement('ul');
+//     if(completionType.TESDA) {
+//         const ul = document.createElement('ul');
 
-        completionType.TESDA.forEach(item => {
-            const li = document.createElement('li');
-            li.classList.add('completion-item');
+//         completionType.TESDA.forEach(item => {
+//             const li = document.createElement('li');
+//             li.classList.add('completion-item');
 
-            li.innerHTML = `
-                <a href="${item.image}" target="_blank">
-                    ${item.title}
-                </a>
-            `;
-            ul.appendChild(li);
-        })
-        tesdaContainer.appendChild(ul);
-    }
+//             li.innerHTML = `
+//                 <a href="${item.image}" target="_blank">
+//                     ${item.title}
+//                 </a>
+//             `;
+//             ul.appendChild(li);
+//         })
+//         tesdaContainer.appendChild(ul);
+//     }
 
-    if(completionType.DICT) {
-        const ul = document.createElement('ul');
+//     if(completionType.DICT) {
+//         const ul = document.createElement('ul');
 
-        completionType.DICT.forEach(item => {
-            const li = document.createElement('li');
-            li.classList.add('completion-item');
+//         completionType.DICT.forEach(item => {
+//             const li = document.createElement('li');
+//             li.classList.add('completion-item');
 
-            li.innerHTML = `
-                <a href="${item.image}" target="_blank">
-                    ${item.title}
-                </a>
-            `;
-            ul.appendChild(li);
-        })
-        dictContainer.appendChild(ul);
-    }
+//             li.innerHTML = `
+//                 <a href="${item.image}" target="_blank">
+//                     ${item.title}
+//                 </a>
+//             `;
+//             ul.appendChild(li);
+//         })
+//         dictContainer.appendChild(ul);
+//     }
 
-    if(completionType.DataCamp) {
-        const courseList = document.getElementById('courses-list');
-        const skillList = document.getElementById('skills-list');
-        const courses = completionType.DataCamp.Course || [];
-        const skills = completionType.DataCamp.Skill || [];
+//     if(completionType.DataCamp) {
+//         const courseList = document.getElementById('courses-list');
+//         const skillList = document.getElementById('skills-list');
+//         const courses = completionType.DataCamp.Course || [];
+//         const skills = completionType.DataCamp.Skill || [];
 
-        courses.forEach(course => {
-            const courseItem = document.createElement('li');
+//         courses.forEach(course => {
+//             const courseItem = document.createElement('li');
             
-            courseItem.innerHTML = `
-                <a href="${course.image}" target="_blank">
-                    ${course.title}
-                </a>
-            `;
-            courseList.appendChild(courseItem);
-        });
+//             courseItem.innerHTML = `
+//                 <a href="${course.image}" target="_blank">
+//                     ${course.title}
+//                 </a>
+//             `;
+//             courseList.appendChild(courseItem);
+//         });
 
-        skills.forEach(skill => {
-            const skillItem = document.createElement('li');
+//         skills.forEach(skill => {
+//             const skillItem = document.createElement('li');
             
-            skillItem.innerHTML = `
-                <a href="${skill.image}" target="_blank">
-                    ${skill.title}
-                </a>
-            `;
-            skillList.appendChild(skillItem);
-        });
-    }
-}
-
-
-
+//             skillItem.innerHTML = `
+//                 <a href="${skill.image}" target="_blank">
+//                     ${skill.title}
+//                 </a>
+//             `;
+//             skillList.appendChild(skillItem);
+//         });
+//     }
+// }
 
 
 const techList = [

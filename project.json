@@ -5,7 +5,7 @@
         "description": "A prototype web application for gold investing. This project simulates a real-time gold price tracker where users can invest in gold and track their transactions.",
         "link": "https://github.com/leonard538/spiral-sound",
         "tech": ["NodeJS", "Express", "SQLite"],
-        "categories": ["Web Development"]
+        "categories": ["2026"]
     }, 
     {
         "image": "./image/projects/gold_digger.png",
@@ -13,7 +13,7 @@
         "description": "A prototype web application for gold investing. This project simulates a real-time gold price tracker where users can invest in gold and track their transactions.",
         "link": "https://github.com/leonard538/gold_digger",
         "tech": ["NodeJS", "JS", "CSS"],
-        "categories": ["Web Development"]
+        "categories": ["2026"]
     },  
     {
         "image": "./image/projects/movie_log.png",
@@ -21,7 +21,7 @@
         "description": "A sleek movie search and watchlist application that lets you discover, explore, and save your favorite films.",
         "link": "https://github.com/leonard538/movie_log",
         "tech": ["NodeJS", "JS", "OMDB API", "CSS"],
-        "categories": ["Web Development"]
+        "categories": ["2026"]
     },   
     {
         "image": "./image/projects/tenzies.png",
@@ -29,7 +29,7 @@
         "description": "A fun dice game built with React where the goal is to roll until all dice show the same value. Click on individual dice to 'freeze' them between rolls.",
         "link": "https://github.com/leonard538/tenzies",
         "tech": ["React", "JS", "Vite", "CSS"],
-        "categories": ["Web Development"]
+        "categories": ["2026"]
     },    
     {
         "image": "./image/projects/lead_tracker.png",
@@ -37,7 +37,7 @@
         "description": "A lightweight JavaScript Chrome extension that saves and organizes links into custom groups, with persistent storage via localStorage and dynamic UI updates",
         "link": "https://github.com/leonard538/leads_tracker",
         "tech": ["CSS", "JS", "Chrome API"],
-        "categories": ["Web Development"]
+        "categories": ["2026"]
     },    
     {
         "image": "./image/projects/cma_dashboard.png",
@@ -45,7 +45,7 @@
         "description": "An interactive tool that audits compliance with the Cheaper Medicines Act by analyzing procurement patterns, price spreads, and branded vs. generic drug prescriptions.",
         "link": "https://leonard538.github.io/BrandedVsGeneric_Drug_Prescription_Analysis/",
         "tech": ["CHARTJS", "JS", "CSS", "HTML"],
-        "categories": ["Web Development"]
+        "categories": ["2025"]
     },
     {
         "image": "./image/projects/paw_patrol.png",
@@ -53,7 +53,7 @@
         "description": "A mock-up full-stack site promoting responsible pet ownership and animal welfare, featuring advocacy content and an integrated backend for administrative management.",
         "link": "https://pawpatrolorg.infinityfreeapp.com/Paw-Patrol/frontend/index.html",
         "tech": ["PHP", "MYSQL", "JS", "EMAILJS", "CSS"],
-        "categories": ["Web Development"]
+        "categories": ["2025"]
     },
     {
         "image": "./image/projects/online_task_manager.png",
@@ -61,7 +61,7 @@
         "description": "A web-based productivity app that allows users to create, assign, and update tasks with a clean, responsive interface for personal and team organization.",
         "link": "https://task-tide.infinityfree.me/login.php",
         "tech": ["PHP", "CSS", "MySQL"],
-        "categories": ["Web Development"]
+        "categories": ["2025"]
     },
     {
         "image": "./image/projects/student_management_sys.png",
@@ -69,7 +69,7 @@
         "description": "A PHP–MySQL project that demonstrates core student information system functions, including adding, viewing, updating, and deleting records.",
         "link": "https://xydleuniversity.infinityfreeapp.com/faculty/faculty_login.php",
         "tech": ["PHP", "MySQL", "TCPDF", "CSS"],
-        "categories": ["Web Development"]
+        "categories": ["2025"]
     },
     {
         "image": "./image/projects/water_level_monitor.jpg",
@@ -77,6 +77,6 @@
         "description": "- An ESP32-based system with ultrasonic sensor, LED, and 7-segment display to measure tank water levels and provide alerts for overflow or shortages.",
         "link": "https://github.com/leonard538/Smart-Water-Level-Monitor",
         "tech": ["C++", "Arduino IDE", "ThingSpeak"],
-        "categories": ["IoT"]
+        "categories": ["2025"]
     }
 ]
