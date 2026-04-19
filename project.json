@@ -1,5 +1,21 @@
 [
     {
+        "image": "./image/projects/gift_genie.png",
+        "title": "Gift Genie | 2026",
+        "description": "Gift Genie is an AI-powered gift idea generator. You describe the person, occasion, budget, and any constraints, then Gift Genie returns recommendations.",
+        "link": "https://github.com/leonard538/gift-genie",
+        "tech": ["NodeJS", "Express", "Vite", "OPENAI SDK", "JS", "CSS"],
+        "categories": ["2026"]
+    }, 
+    {
+        "image": "./image/projects/print_forge.png",
+        "title": "Print Forge | 2026",
+        "description": "Print Forge is a modern web app for browsing and exploring 3D printable models by category.",
+        "link": "https://github.com/leonard538/print-forge",
+        "tech": ["NextJS", "React", "Typescript", "Tailwind"],
+        "categories": ["2026"]
+    }, 
+    {
         "image": "./image/projects/spiral_sounds.png",
         "title": "Spiral Sounds | 2026",
         "description": "A prototype web application for gold investing. This project simulates a real-time gold price tracker where users can invest in gold and track their transactions.",
@@ -17,9 +33,9 @@
     },  
     {
         "image": "./image/projects/movie_log.png",
-        "title": "Movie Log | 2026",
+        "title": "CineMate | 2026",
         "description": "A sleek movie search and watchlist application that lets you discover, explore, and save your favorite films.",
-        "link": "https://github.com/leonard538/movie_log",
+        "link": "https://cinemate-lp.vercel.app",
         "tech": ["NodeJS", "JS", "OMDB API", "CSS"],
         "categories": ["2026"]
     },   
@@ -27,7 +43,7 @@
         "image": "./image/projects/tenzies.png",
         "title": "Tenzies | 2026",
         "description": "A fun dice game built with React where the goal is to roll until all dice show the same value. Click on individual dice to 'freeze' them between rolls.",
-        "link": "https://github.com/leonard538/tenzies",
+        "link": "https://tenzieslp.netlify.app",
         "tech": ["React", "JS", "Vite", "CSS"],
         "categories": ["2026"]
     },    
@@ -74,7 +90,7 @@
     {
         "image": "./image/projects/water_level_monitor.jpg",
         "title": "Smart Water Level Monitor | 2025",
-        "description": "- An ESP32-based system with ultrasonic sensor, LED, and 7-segment display to measure tank water levels and provide alerts for overflow or shortages.",
+        "description": "An ESP32-based system with ultrasonic sensor, LED, and 7-segment display to measure tank water levels and provide alerts for overflow or shortages.",
         "link": "https://github.com/leonard538/Smart-Water-Level-Monitor",
         "tech": ["C++", "Arduino IDE", "ThingSpeak"],
         "categories": ["2025"]
