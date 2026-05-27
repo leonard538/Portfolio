@@ -192,8 +192,8 @@ async function makeCertificate() {
 const techList = [
     "Packet Tracer", "Virtual Machine",
     "Figma", "HTML", "CSS", "JavaScript",
-    "React", "PHP", "NodeJS", "Express", "MySQL", 
-    "SQLite", "PostgreSQL", "Firebase"
+    "React", "NextJS", "PHP", "NodeJS", "Express", "MySQL", 
+    "SQLite", "PostgreSQL", "Firebase", "OPENAI SDK"
 ];
 
 const fullList = [...techList, ...techList];
@@ -216,7 +216,27 @@ navAnchor.forEach(anchor => {
             nav.classList.remove('active')
         });
         anchor.classList.add('active');
+
+        if (window.innerWidth <= 768) {
+            document.body.classList.remove('nav-open');
+            const header = document.querySelector('header');
+            const navToggle = document.getElementById('nav-toggle');
+            header.classList.remove('menu-open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        }
     });
+});
+
+const navToggle = document.getElementById('nav-toggle');
+const header = document.querySelector('header');
+
+navToggle.addEventListener('click', () => {
+    const isOpen = header.classList.toggle('menu-open');
+    navToggle.setAttribute('aria-expanded', String(isOpen));
+    navToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
 });
 
 const sections = document.querySelectorAll('section');
