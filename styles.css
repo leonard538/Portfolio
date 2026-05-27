@@ -282,8 +282,137 @@ section#overview div.overview-btn {
             padding-right: 16px;
         }
 
+        section.projects > article.proj-overview > div.project-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            margin-top: 34px;
+        }
+
         div.project-filters > button {
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        div.project-filters > button:nth-child(1),
+        div.project-filters > button:nth-child(2),
+        div.project-filters > button:nth-child(3) {
+            flex: 1 1 calc(33.333% - 10px);
+            justify-content: center;
+        }
+
+        div.project-filters > a {
+            width: 100%;
+            justify-content: center;
+            margin-top: 6px;
+        }
+
+        article.proj-parent-card {
+            width: 100%;
+            max-height: none;
+        }
+
+        article.proj-parent-card > div.proj-card {
+            max-width: none;
+            padding: 0;
+            margin-right: 0;
             margin-bottom: 18px;
+        }
+
+        div.proj-card a.proj-link {
+            flex-direction: column;
+            gap: 12px;
+            padding: 14px;
+            box-sizing: border-box;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        div.proj-card section.proj-img {
+            display: none;
+        }
+
+        div.proj-card section.proj-details {
+            min-height: 0;
+        }
+
+        section.proj-details h3 {
+            font-size: 1rem;
+        }
+
+        section.proj-details h3 span.material-symbols-outlined {
+            display: none;
+        }
+
+        div.proj-card section.proj-details p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+
+        div.proj-card section.proj-details p:not(.tech-stack-text) {
+            color: #d0d0d0;
+        }
+
+        div.proj-card section.proj-details p.tech-stack-text {
+            display: block;
+        }
+
+        div.proj-card section.proj-details aside.tech-used {
+            display: none;
+        }
+
+        section.achievements div.certificates {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        div.certificates article.container-card {
+            width: 100%;
+            gap: 12px;
+            padding: 18px 0 0;
+        }
+
+        div.certificates > article.container-card > div.cert-card {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: none;
+        }
+
+        div.certificates > article.container-card > div.cert-card > a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 16px 0;
+        }
+
+        div.certificates > article.container-card > div.cert-card > a > img {
+            display: none;
+        }
+
+        div.certificates > article.container-card div.cert-meta {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            color: #333;
+        }
+
+        div.certificates > article.container-card div.cert-meta h4 {
+            margin: 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #DAA520;
+            width: 100%;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+
+        div.certificates > article.container-card div.cert-meta span {
+            padding-top: 8px;
+            color: #666;
+            font-size: 0.85rem;
         }
     }
 
@@ -400,12 +529,10 @@ article.proj-parent-card {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: 20px 0;
-}
-    article.proj-parent-card:hover {
-        overflow-y: auto;
-        overscroll-behavior: contain;
+    overscroll-behavior-y: auto;
     }
     article.proj-parent-card::-webkit-scrollbar { width: 6px; }
         article.proj-parent-card::-webkit-scrollbar-thumb {
@@ -474,6 +601,14 @@ div.proj-card section.proj-details p {
     overflow: ellipsis; /*CHECK !!!!*/
     color: #777;
     font-size: 12px;
+}
+
+div.proj-card section.proj-details p.tech-stack-text {
+    display: none;
+    margin-top: 0;
+    color: #DAA520;
+    font-size: 0.78rem;
+    line-height: 1.5;
 }
 
 div.proj-card section.proj-details aside.tech-used {
@@ -555,6 +690,10 @@ div.certificates > article.container-card a > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+div.certificates > article.container-card div.cert-meta {
+    display: none;
 }
 
 
@@ -1021,5 +1160,59 @@ footer.footer div.lower-footer h5 {
 @media (max-width: 400px) {
     header > nav > a {
         font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.achievements div.certificates {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    div.certificates article.container-card {
+        width: 100%;
+        gap: 12px;
+        padding: 18px 0 0;
+    }
+
+    div.certificates > article.container-card > div.cert-card {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: none;
+    }
+
+    div.certificates > article.container-card > div.cert-card > a {
+        display: block;
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    div.certificates > article.container-card > div.cert-card > a > img {
+        display: none;
+    }
+
+    div.certificates > article.container-card div.cert-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        color: #333;
+    }
+
+    div.certificates > article.container-card div.cert-meta h4 {
+        margin: 0;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #DAA520;
+        text-align: center;
+        font-size: 0.95rem;
+        line-height: 1.3;
+    }
+
+    div.certificates > article.container-card div.cert-meta span {
+        color: #666;
+        font-size: 0.85rem;
+        text-align: center;
     }
 }

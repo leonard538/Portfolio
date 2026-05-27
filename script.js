@@ -38,6 +38,7 @@ function makeProjects(projects) {
         else {
            techTags = '<span class="tech-tags empty"></span>';
         }
+        const techStackText = proj.tech && proj.tech.length > 0 ? proj.tech.join(' | ') : '';
         const link = proj.link && proj.link.trim() !== '' ? proj.link : '#';
 
         projCard.innerHTML = `
@@ -51,6 +52,7 @@ function makeProjects(projects) {
                         <span class="material-symbols-outlined">arrow_outward</span>
                     </h3>
                     <p>${proj.description}</p>
+                    <p class="tech-stack-text">${techStackText}</p>
                     
                     <aside class="tech-used">
                         ${techTags}
@@ -108,6 +110,10 @@ async function makeCertificate() {
         certCard.innerHTML = `
             <a href="${cert.link}" target="_blank">
                 <img src="${cert.image}">
+                <div class="cert-meta">
+                    <h4>${cert.title}</h4>
+                    <span>${cert.date}</span>
+                </div>
             </a>
         `;
         
@@ -285,10 +291,25 @@ document.addEventListener('DOMContentLoaded', () => {
 // ---------------
 async function initialize() {
     await Promise.all([
-        makeCertificate(),
-        makeCompletions()
+        makeCertificate()
     ]);
-    projectFilter();
 }
 
 initialize().catch(err => console.error(err));
+
+const projectContainer = document.getElementById('container-projects');
+projectContainer.addEventListener('wheel', event => {
+    const maxScrollTop = projectContainer.scrollHeight - projectContainer.clientHeight;
+    const atTop = projectContainer.scrollTop <= 0;
+    const atBottom = projectContainer.scrollTop >= maxScrollTop - 1;
+    const scrollingDown = event.deltaY > 0;
+    const scrollingUp = event.deltaY < 0;
+
+    if ((atBottom && scrollingDown) || (atTop && scrollingUp)) {
+        event.preventDefault();
+        window.scrollBy({
+            top: event.deltaY,
+            behavior: 'auto'
+        });
+    }
+}, { passive: false });
